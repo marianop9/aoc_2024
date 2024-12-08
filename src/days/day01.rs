@@ -3,13 +3,13 @@ use std::iter::zip;
 use crate::etc::{get_input_file, Solution};
 
 const DAYNUM: u8 = 1;
-const TEST_INPUT: &str = "3   4
-4   3
-2   5
-1   3
-3   9
-3   3
-";
+// const TEST_INPUT: &str = "3   4
+// 4   3
+// 2   5
+// 1   3
+// 3   9
+// 3   3
+// ";
 
 fn find_distance(input: &str) -> u32 {
     let (mut left, mut right) = (vec![], vec![]);

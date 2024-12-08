@@ -3,7 +3,7 @@ mod etc;
 
 use std::env;
 
-use days::{day01, day02};
+use days::{day01, day02, day03};
 use etc::Solution;
 
 fn main() {
@@ -32,6 +32,7 @@ fn get_day_solver(day: u8) -> fn() -> Solution {
     match day {
         1 => day01::solve,
         2 => day02::solve,
+        3 => day03::solve,
         _ => unimplemented!(),
     }
 }
